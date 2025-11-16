@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Synoptic</title>
+  </head>
+  <body class="body" id="body">
+    <div class="container">
+      <header class="header">
+        <h1 class="reset">WeatherBoard</h1>
+        <span class="title-icon">⛅</span>
+      </header>
+
+      <div class="add-city">
+        <input
+          id="input"
+          type="text"
+          placeholder="Введите город..."
+          class="input"
+        />
+        <button id="add-btn" class="btn">Добавить</button>
+      </div>
+
+      <div id="city-list" class="city-list"></div>
+
+      <div class="btn-box">
+        <button id="load-btn" class="btn">Загрузить погоду</button>
+        <button id="clear-btn" class="btn">Очистить страницу</button>
+      </div>
+
+      <div id="cards" class="cards"></div>
+    </div>
+    <script type="module" src="../js/index.js"></script>
+  </body>
+</html>

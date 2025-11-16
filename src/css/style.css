@@ -1,0 +1,83 @@
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin: 0;
+  padding: 25px;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.add-city {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.city-list {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.city {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px 14px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.city:hover {
+  background: rgba(255, 255, 255, 0.25); /* темнее при наведении */
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.25); /* темнее при наведении */
+}
+
+
+.title-icon {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+}
+
